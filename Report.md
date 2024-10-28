@@ -44,4 +44,10 @@ Cost = -(1/N) * Σ [yᵢ * log(h(xᵢ)) + (1 - yᵢ) * log(1 - h(xᵢ))]
 4. **Training Process**:
    - **Gradient Descent** is used to find optimal parameters \( w \) and \( b \) that minimize the cost function.
    - The algorithm iteratively updates these parameters, improving model accuracy.
+  
+     #
 
+Later in task 5,I learned it from scratch.For a basic idea I trained a model to distinguish between different species of the Iris flower based on sepal length, sepal width, petal length, and petal width using sci-kit’s linear_model.LogisticRegression.
+
+
+Here's the link for the kaggle notebook - [Logistic Regression](https://www.kaggle.com/code/ashith1709/logistic-regression)  
