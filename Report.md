@@ -80,9 +80,9 @@ Here's the link for the kaggle notebook-[Matplotlib and Data Visualisation](http
 
 ## Task 3 - Numpy
 
-# NumPy: A Fundamental Library for Numerical Computing in Python
-
-**NumPy** (Numerical Python) is a powerful Python library used for numerical and scientific computing. It provides support for large, multi-dimensional arrays and matrices, along with a wide range of mathematical functions like addition, subtraction, trigonometry, statistics, and linear algebra on these arrays. The core feature of NumPy is its array object (`ndarray`), which allows for fast array operations and manipulation.It provides flexible methods for accessing and modifying subsets of arrays and facilitates operations on arrays of different shapes by expanding dimensions to match.It Works seamlessly with libraries like **Pandas**, **Matplotlib**, and **SciPy**.
+**NumPy** (Numerical Python) is a powerful Python library used for numerical and scientific computing. It provides support for large, multi-dimensional arrays and matrices, along with a wide range of mathematical functions like addition, subtraction, trigonometry, statistics, and linear algebra on these arrays. 
+#
+The core feature of NumPy is its array object (`ndarray`), which allows for fast array operations and manipulation.It provides flexible methods for accessing and modifying subsets of arrays and facilitates operations on arrays of different shapes by expanding dimensions to match.It Works seamlessly with libraries like **Pandas**, **Matplotlib**, and **SciPy**.
 
 #
 
@@ -92,8 +92,7 @@ The task was to generate an array by repeating a small array across each dimensi
 
 #
 
-Here's the link for the kaggle notebook-![Numpy](https://www.kaggle.com/code/ashith1709/numpy)
-
+Here's the link for the code-[Numpy](https://www.kaggle.com/code/ashith1709/numpy)
 
 
 
