@@ -88,6 +88,12 @@ Here's the link for the kaggle notebook-[Matplotlib and Data Visualisation](http
 
 The task was to generate an array by repeating a small array across each dimension and to generate an array with element indexes such that the array elements appear in ascending order.
 
+![Numpy](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/Numpy.png)
+
+#
+
+Here's the link for the kaggle notebook-![Numpy](https://www.kaggle.com/code/ashith1709/numpy)
+
 
 
 
