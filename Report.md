@@ -60,14 +60,14 @@ Here's the link for the kaggle notebook - [Logistic Regression](https://www.kagg
 
 ## Task 2 - Matplotlib and Data Visualisation  
   
-**Matplotlib** is a popular Python library used for data visualization. It provides tools to create a wide variety of static, animated, and interactive plots, ranging from simple line plots to complex multi-dimensional graphs. Matplotlib is particularly valued for its flexibility and control over plot appearance, making it a preferred choice for detailed customization in professional and academic visualizations.Data visualization is crucial for interpreting data trends, spotting anomalies, and conveying insights effectively.
+**Matplotlib** is a popular Python library used for data visualization. It provides tools to create a wide variety of static, animated, and interactive plots, ranging from simple line plots to complex multi-dimensional graphs.Data visualization is crucial for interpreting data trends, spotting anomalies, and conveying insights effectively.
 # 
 
  Matplotlib allows detailed control over plot elements like colors, labels, styles, and grid layouts.It Works well with other Python libraries, such as **Pandas** for data manipulation and **NumPy** for numerical operations.It offers line plots, scatter plots, bar plots, histograms, box plots, pie charts, heatmaps, violin plots, area plots, 3D plots,multiple sub plots, stem plots, quiver plots, and step plots.
 #
 
 
-Matplotlib also has a user-friendly interface through **Pyplot**, which provides MATLAB-like commands that simplify plot creation, making it accessible even for beginners. This capability has made Matplotlib a fundamental tool for data analysis and visualization in Python.
+Matplotlib also has a user-friendly interface through **Pyplot**, which provides MATLAB-like commands that simplify plot creation, making it accessible even for beginners. 
 #
 
 The task was to explore the various basic characteristics to plots with python libraries,make a multivariate distribution for the given dataset for a classification task and to understand an elementary idea of clustering.
@@ -93,6 +93,83 @@ The task was to generate an array by repeating a small array across each dimensi
 #
 
 Here's the link for the code-[Numpy](https://www.kaggle.com/code/ashith1709/numpy)
+
+
+
+## Task 4 - Metrics and Performance Evaluation
+
+In both regression and classification, metrics are used to evaluate the model's performance by assessing how well the predicted values align with the actual data.
+
+
+### Regression Metrics
+
+The metrics focus on assessing the accuracy of the predictions relative to the actual values.
+#
+
+1.**Mean Absolute Error (MAE):**
+  The average absolute difference between predicted and actual values.Gives a sense of the average prediction error. Lower values indicate better performance.
+#
+
+
+2.**Mean Squared Error (MSE):**
+  The average of the squared differences between predicted and actual values. Sensitive to larger errors due to squaring, which penalizes significant deviations more heavily.
+#
+
+
+3.**Root Mean Squared Error (RMSE):**
+  The square root of the MSE, providing an error metric in the same units as the target variable.Similar to MSE but more interpretable since it's in the same unit as the data.
+#
+
+
+4.**R-squared (R²):**
+   Represents the proportion of the variance in the target variable explained by the model.A value between 0 and 1, where 1 indicates that the model explains all the variance in the data.
+#
+
+
+5.**Adjusted R-squared:**
+   A modified R² that accounts for the number of predictors in the model.Useful when comparing models with different numbers of predictors, as it penalizes models with unnecessary predictors.
+#
+Here's the code implementing the Regression metrics-[Regression metrics](https://www.kaggle.com/code/ashith1709/regression-metrices)
+
+
+### Classification Metrics
+
+The metrics evaluate the model’s ability to classify correctly.
+#
+
+
+1.**Accuracy:**
+   The proportion of correct predictions (both true positives and true negatives) out of the total predictions.Works well when classes are balanced but can be misleading in imbalanced data.
+#
+
+
+2.**Precision:**
+    The proportion of true positive predictions among all positive predictions.Indicates the accuracy of positive predictions, useful when false positives are costly.
+#
+
+
+3.**Recall (Sensitivity or True Positive Rate):**
+    The proportion of true positives among all actual positives.Shows how well the model captures actual positives, valuable when false negatives are critical.
+#
+
+
+4.**F1 Score:**
+    The harmonic mean of precision and recall, providing a balance between the two.Useful for imbalanced classes as it penalizes extreme precision or recall values.
+#
+
+
+5.**ROC-AUC (Receiver Operating Characteristic - Area Under Curve):**
+   A measure of the model's ability to distinguish between classes by plotting the True Positive Rate vs. False Positive Rate at various thresholds.An AUC of 1 indicates perfect separation between classes, while 0.5 indicates no discriminative power.
+#
+
+
+6.**Log Loss (Binary Cross-Entropy):**
+    Measures the performance of a classification model by penalizing wrong predictions based on their confidence.Lower values indicate better model performance.
+#
+Here's the link implementing the Classification metrics-[Classification Metrics](https://www.kaggle.com/code/ashith1709/classification-metrices)
+
+
+
 
 
 
