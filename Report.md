@@ -71,6 +71,8 @@ Matplotlib also has a user-friendly interface through **Pyplot**, which provides
 #
 
 The task was to explore the various basic characteristics to plots with python libraries,make a multivariate distribution for the given dataset for a classification task and to understand an elementary idea of clustering.
+
+![plot](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/matplo.png)
 #
 Here's the link for the kaggle notebook-[Matplotlib and Data Visualisation](https://www.kaggle.com/code/ashith1709/matplotlib-and-data-visualisation)
 
