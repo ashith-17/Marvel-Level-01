@@ -167,6 +167,37 @@ The metrics evaluate the model’s ability to classify correctly.
     Measures the performance of a classification model by penalizing wrong predictions based on their confidence.Lower values indicate better model performance.
 #
 Here's the link implementing the Classification metrics-[Classification Metrics](https://www.kaggle.com/code/ashith1709/classification-metrices)
+#
+## Task 5 - Linear and Logistic Regression - Coding the model from SCRATCH
+#### Linear regression from scratch
+<iframe src="https://colab.research.google.com/#fileId=https%3A//storage.googleapis.com/kaggle-colab-exported-notebooks/lr-from-scratch-1216ac9d-dac0-4e33-b147-c6486ab54588.ipynb%3FX-Goog-Algorithm%3DGOOG4-RSA-SHA256%26X-Goog-Credential%3Dgcp-kaggle-com%2540kaggle-161607.iam.gserviceaccount.com/20241103/auto/storage/goog4_request%26X-Goog-Date%3D20241103T141858Z%26X-Goog-Expires%3D259200%26X-Goog-SignedHeaders%3Dhost%26X-Goog-Signature%3D78efe39a0d99de36b6f13e921f834e9591fe72af3f66cbef4bf17ed83a249bf3fb5867b92df772b7e305e683977a46965f40e6610afe105e19dfbb1c3bab8da28086994e05ddb179078893127657ef84f502a37d351133f90a2652214ff7032df667a2407026ef411f3cbd0a00afd961cfd47b786da2790e47be7761de868a96b062c0d37ec8b4c58ae6413ddb02b49cc20894d57eba9fa3ec3ac14bf2a7a245d84f9cb90e3cdd46dca65e178955327c266220d1d6bc56e592b95c750f3b95a43a0bdc70ffc702fee7e0f1945b073283fe70cd07eee617caea7c2709593b8169f00552202868f8a92e578fc93fd4bf3c4767d568f7efd284ee255e1c98706db0" width="100%" height="100" frameborder="0" allowfullscreen></iframe>
+
+#### Logistic regression from scratch
+<iframe src="https://colab.research.google.com/#fileId=https%3A//storage.googleapis.com/kaggle-colab-exported-notebooks/logr-from-scratch-0f2e2616-9171-42b5-a749-4e2aeae4098b.ipynb%3FX-Goog-Algorithm%3DGOOG4-RSA-SHA256%26X-Goog-Credential%3Dgcp-kaggle-com%2540kaggle-161607.iam.gserviceaccount.com/20241103/auto/storage/goog4_request%26X-Goog-Date%3D20241103T143427Z%26X-Goog-Expires%3D259200%26X-Goog-SignedHeaders%3Dhost%26X-Goog-Signature%3D429051c2a2fd6a053b7b60670bb596912176136f542135d59c0cce67e81c9890edcb19d85d5f03e710d1991cceb1a54beac31734ee89538a94a7b69fa4ad99c6c445c49662c0d7a94e76893a81d48a01c4a3bea669969ca81ca8747d06b724dab614a13fce50a4af79deedcaf36280727f7e0739f5a9dfdbcfcdfeb9b1342b5a46a0a17f0162ac46bf293eff8c01b7cd7577024047478d3f8eaa20cd2ddb6c796fd8a2054379d3f3a78adf851b062d3474641de770b00ac1ec6ea4bc26ea53d79047ecc342950fec2c45a28a0c3dae9bdbbff7a962e91817dd8f465d3b955f805a977d72fd60e041e6c640be71533f93314d3be62ae0bbf0ecbc50b33fe6d5be" width="100%" height="100" frameborder="0" allowfullscreen></iframe>
+
+
+## Task 6 - KNN 
+K-Nearest Neighbors (KNN) is a simple, intuitive algorithm used for classification and regression tasks in machine learning. It operates based on the principle of proximity, making decisions based on the 'K' closest data points in the feature space.
+#
+KNN is an instance-based learning algorithm, meaning it doesn’t explicitly learn a model from the training data. Instead, it memorizes the training dataset and makes predictions based on the instances in that dataset.
+#
+KNN relies on a distance metric to determine how close two points are. Common distance metrics include:Euclidean Distance: Measures the straight-line distance between two points in Euclidean space.Manhattan Distance: Measures the distance between two points in a grid-based path.Minkowski Distance: Generalization of Euclidean and Manhattan distances.
+#
+The parameter 'K' represents the number of nearest neighbors to consider when making a prediction.A smaller K can be sensitive to noise in the data, while a larger K may smooth out class boundaries.Choosing the right K is crucial; cross-validation is often used to find the optimal value.
+#
+Here's the code-[KNN](https://www.kaggle.com/code/ashith1709/knn-from-scratch)
+#
+## Task 7:Neural Networks
+
+Neural networks are computational models inspired by the human brain, designed to recognize patterns and solve complex problems. They consist of interconnected layers of nodes, known as neurons, which process data and learn from it.
+#
+Large language models (LLMs) are advanced artificial intelligence systems designed to understand and generate human language. They are trained on vast datasets, allowing them to predict text, answer questions, and engage in conversations. LLMs leverage deep learning techniques, particularly neural networks, to process and generate natural language effectively.
+#
+The task was to write a blog about your understanding of Neural Networks and types like CNN, ANN, etc and to learn about Large Language Models at a basic level and make a blog post explaining how you would build GPT-4.
+#
+[Neural Networks and LLM](https://github.com/ashith-17/Marvel-Level-01/blob/main/Task%207.md)
+
+
 
 
 
