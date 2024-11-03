@@ -169,19 +169,19 @@ The metrics evaluate the model’s ability to classify correctly.
 Here's the link implementing the Classification metrics-[Classification Metrics](https://www.kaggle.com/code/ashith1709/classification-metrices)
 #
 ## Task 5 - Linear and Logistic Regression - Coding the model from SCRATCH
-#### Linear regression from scratch
-<iframe src="https://colab.research.google.com/#fileId=https%3A//storage.googleapis.com/kaggle-colab-exported-notebooks/lr-from-scratch-1216ac9d-dac0-4e33-b147-c6486ab54588.ipynb%3FX-Goog-Algorithm%3DGOOG4-RSA-SHA256%26X-Goog-Credential%3Dgcp-kaggle-com%2540kaggle-161607.iam.gserviceaccount.com/20241103/auto/storage/goog4_request%26X-Goog-Date%3D20241103T141858Z%26X-Goog-Expires%3D259200%26X-Goog-SignedHeaders%3Dhost%26X-Goog-Signature%3D78efe39a0d99de36b6f13e921f834e9591fe72af3f66cbef4bf17ed83a249bf3fb5867b92df772b7e305e683977a46965f40e6610afe105e19dfbb1c3bab8da28086994e05ddb179078893127657ef84f502a37d351133f90a2652214ff7032df667a2407026ef411f3cbd0a00afd961cfd47b786da2790e47be7761de868a96b062c0d37ec8b4c58ae6413ddb02b49cc20894d57eba9fa3ec3ac14bf2a7a245d84f9cb90e3cdd46dca65e178955327c266220d1d6bc56e592b95c750f3b95a43a0bdc70ffc702fee7e0f1945b073283fe70cd07eee617caea7c2709593b8169f00552202868f8a92e578fc93fd4bf3c4767d568f7efd284ee255e1c98706db0" width="100%" height="100" frameborder="0" allowfullscreen></iframe>
-
-#### Logistic regression from scratch
-<iframe src="https://colab.research.google.com/#fileId=https%3A//storage.googleapis.com/kaggle-colab-exported-notebooks/logr-from-scratch-0f2e2616-9171-42b5-a749-4e2aeae4098b.ipynb%3FX-Goog-Algorithm%3DGOOG4-RSA-SHA256%26X-Goog-Credential%3Dgcp-kaggle-com%2540kaggle-161607.iam.gserviceaccount.com/20241103/auto/storage/goog4_request%26X-Goog-Date%3D20241103T143427Z%26X-Goog-Expires%3D259200%26X-Goog-SignedHeaders%3Dhost%26X-Goog-Signature%3D429051c2a2fd6a053b7b60670bb596912176136f542135d59c0cce67e81c9890edcb19d85d5f03e710d1991cceb1a54beac31734ee89538a94a7b69fa4ad99c6c445c49662c0d7a94e76893a81d48a01c4a3bea669969ca81ca8747d06b724dab614a13fce50a4af79deedcaf36280727f7e0739f5a9dfdbcfcdfeb9b1342b5a46a0a17f0162ac46bf293eff8c01b7cd7577024047478d3f8eaa20cd2ddb6c796fd8a2054379d3f3a78adf851b062d3474641de770b00ac1ec6ea4bc26ea53d79047ecc342950fec2c45a28a0c3dae9bdbbff7a962e91817dd8f465d3b955f805a977d72fd60e041e6c640be71533f93314d3be62ae0bbf0ecbc50b33fe6d5be" width="100%" height="100" frameborder="0" allowfullscreen></iframe>
-
+#
+Linear Regression from scratch -
+ [Linear Regression](https://www.kaggle.com/code/ashith1709/lr-from-scratch)
+#
+Logistic regression from scratch -
+ [Logistic regression](https://www.kaggle.com/code/ashith1709/logr-from-scratch)
 
 ## Task 6 - KNN 
-K-Nearest Neighbors (KNN) is a simple, intuitive algorithm used for classification and regression tasks in machine learning. It operates based on the principle of proximity, making decisions based on the 'K' closest data points in the feature space.
+K-Nearest Neighbors (KNN) is a intuitive algorithm used for classification and regression tasks in machine learning. It operates based on the principle of proximity, making decisions based on the 'K' closest data points in the feature space.
 #
 KNN is an instance-based learning algorithm, meaning it doesn’t explicitly learn a model from the training data. Instead, it memorizes the training dataset and makes predictions based on the instances in that dataset.
 #
-KNN relies on a distance metric to determine how close two points are. Common distance metrics include:Euclidean Distance: Measures the straight-line distance between two points in Euclidean space.Manhattan Distance: Measures the distance between two points in a grid-based path.Minkowski Distance: Generalization of Euclidean and Manhattan distances.
+KNN relies on a distance metric to determine how close two points are. Common distance metrics are:Euclidean Distance: Measures the straight-line distance between two points in Euclidean space.Manhattan Distance: Measures the distance between two points in a grid-based path.Minkowski Distance: Generalization of Euclidean and Manhattan distances.
 #
 The parameter 'K' represents the number of nearest neighbors to consider when making a prediction.A smaller K can be sensitive to noise in the data, while a larger K may smooth out class boundaries.Choosing the right K is crucial; cross-validation is often used to find the optimal value.
 #
@@ -196,9 +196,33 @@ Large language models (LLMs) are advanced artificial intelligence systems design
 The task was to write a blog about your understanding of Neural Networks and types like CNN, ANN, etc and to learn about Large Language Models at a basic level and make a blog post explaining how you would build GPT-4.
 #
 [Neural Networks and LLM](https://github.com/ashith-17/Marvel-Level-01/blob/main/Task%207.md)
+#
+## Task 8 - Mathematics behind machine learning
 
+#### Curve fitting 
+![](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/Log%20desmo.png)
+In Desmos, curve fitting involves finding a mathematical model that best matches a set of data points by minimizing the error between the model and the points. To start, input your data in a table. Then, select a function type (e.g., linear, polynomial, exponential) that you believe fits the data. Enter the model equation in Desmos using a tilde (~) instead of an equal sign (=) to initiate regression. Desmos calculates optimal parameter values for the model, showing the resulting curve on the graph. This curve-fitting process is useful for understanding trends and making predictions based on data.
+#### Fourier Transform 
+![](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/Fourier%20transform.png)
+The Fourier Transform is a mathematical technique that transforms a time-domain signal into its frequency-domain components. It decomposes a complex signal into a sum of simple sine and cosine waves, each with specific frequencies, amplitudes, and phases. By revealing which frequencies are present and their intensities, the Fourier Transform helps identify patterns and behaviors in data that are not visible in the time domain. The result is a spectrum that shows how much of each frequency exists in the original signal.
+#
+## Task 9 - Data Visualization for Exploratory Data Analysis
 
-
+Plotly is an interactive graphing library for creating data visualizations in Python, R, and JavaScript. Known for its flexibility, Plotly supports a wide variety of chart types, including line, bar, scatter, heatmaps, 3D plots, and more. Plotly’s straightforward syntax allows users to easily modify visuals with custom colors, labels, and tooltips, enhancing data exploration and presentation. It’s widely used in data science and analytics for its integration with libraries like Pandas, making data visualization both powerful and accessible.
+![](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/plo.png)
+[Plotly](https://www.kaggle.com/code/ashith1709/plotly)
+#
+## Task 10-An introduction to Decision Trees
+Decision trees is used for both classification and regression tasks. They structure decisions in a tree-like model, where each internal node represents a decision based on a feature, each branch represents an outcome of that decision, and each leaf node represents a final prediction. The model splits data into subsets based on the most informative features, optimizing for criteria like information gain (for classification) or variance reduction (for regression). Decision trees are intuitive, easy to interpret, and handle both numerical and categorical data well. However, they can be prone to overfitting, especially with deep trees.
+![](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/Decision%20Tree.png)
+[Decision Tree](https://www.kaggle.com/code/ashith1709/decision-tree)
+#
+## Task 11 - Support Vector machines 
+ SVM works by finding a hyperplane (or boundary) that best separates data points from different classes. This hyperplane is chosen to maximize the margin—the distance between the nearest data points of each class, known as support vectors, and the boundary. By maximizing this margin, SVM aims to improve model generalization to new data. It can work well with both linear and non-linear data by using kernel functions, which transform data into higher dimensions for better separability.
+#
+The task was to use the concept of Support Vector Machines to  detect the possibility of breast cancer.
+![](https://raw.githubusercontent.com/ashith-17/Marvel-Level-01/refs/heads/main/SVM.png)
+[SVM](https://www.kaggle.com/code/ashith1709/notebook33e2af79fd)
 
 
 
